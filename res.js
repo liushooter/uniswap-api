@@ -1,55 +1,64 @@
-var request = require('request');
+const request = require('request');
 
 // https://uniswap.org/docs/v2/API/queries/#all-pairs-in-uniswap
-var query1 = `
+const query1 = `
 {
-   pairs(first: 1, skip: 3) {
+  pairs(first: 3, skip: 0) {
+    id
+    token0 {
+      id
+      symbol
+      name
+      derivedETH
+     }
+
+     token1 {
+      id
+      symbol
+      name
+      derivedETH
+     }
+
+    reserve0
+    reserve1
+    reserveUSD
+    trackedReserveETH
+    token0Price
+    token1Price
+    volumeUSD
+    txCount
+  }
+}
+`
+
+const query2 = `
+{
+  pairs(first: 3, skip: 0) {
     id
     token0 {
        id
        symbol
        name
-       derivedETH
      }
-
      token1 {
        id
        symbol
        name
-       derivedETH
      }
-
-     reserve0
-     reserve1
-     reserveUSD
-     trackedReserveETH
-     token0Price
-     token1Price
-     volumeUSD
-     txCount
-   }
+  }
 }
 `
 
-var query = `
+const query = `
 {
-   pairs(first: 10, skip: 10) {
+  tokens(first: 3, skip: 0) {
     id
-    token0 {
-       id
-       symbol
-       name
-     }
-     token1 {
-       id
-       symbol
-       name
-     }
-   }
+    name
+    symbol
+  }
 }
 `
-
-var options = {
+const options = {
   'method': 'POST',
   'url': 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2',
   'headers': {
@@ -60,12 +69,14 @@ var options = {
     variables: {}
   })
 };
-request(options, function (error, response) {
-  if (error) {throw new Error(error)};
 
-  var body = response.body;
-//   var obj = JSON.parse(body)
-//   console.log(obj['data']);
+request(options, function(error, response) {
+  if (error) {
+    throw new Error(error)
+  };
 
-console.log(body);
+  const body = response.body;
+  const obj = JSON.parse(body);
+  const data = obj['data']
+  console.log(data);
 });
