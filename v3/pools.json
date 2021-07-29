@@ -1,0 +1,161 @@
+[{
+  "createdAtTimestamp": "1627488388",
+  "id": "0x02960f39c5e7f369da34fd44ba2b3f5ace24c478",
+  "liquidity": "0",
+  "token0": {
+    "id": "0x076eaa6fd846669a4873cf1b4de5a54d2d837ab5",
+    "name": "Ethereum ANRX",
+    "symbol": "eANRX"
+  },
+  "token1": {
+    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "symbol": "WETH"
+  },
+  "txCount": "19",
+  "createdAtDatetime": "2021-07-29 00:06:28"
+}, {
+  "createdAtTimestamp": "1627258034",
+  "id": "0x05598d168fce17689ee2850bdcd0e461cac224ac",
+  "liquidity": "0",
+  "token0": {
+    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "symbol": "WETH"
+  },
+  "token1": {
+    "id": "0xc91b523a59acc63a64f61fc7bbfb4bfc82dd25f2",
+    "name": "Multiverse",
+    "symbol": "AI"
+  },
+  "txCount": "3",
+  "createdAtDatetime": "2021-07-26 08:07:14"
+}, {
+  "createdAtTimestamp": "1626993590",
+  "id": "0x05f6cd6b226b21c337acf18632aa2abdccc0ab78",
+  "liquidity": "60264827750143316517",
+  "token0": {
+    "id": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "name": "Tether USD",
+    "symbol": "USDT"
+  },
+  "token1": {
+    "id": "0xeeff2a81072321b26e081c4fb572efd9d4c29fd2",
+    "name": "Chihuahua",
+    "symbol": "WAWA"
+  },
+  "txCount": "21",
+  "createdAtDatetime": "2021-07-23 06:39:50"
+}, {
+  "createdAtTimestamp": "1626812919",
+  "id": "0x03489f8e606a739e84a8608d0225ded451975fda",
+  "liquidity": "3860766674327422211651",
+  "token0": {
+    "id": "0x00000000441378008ea67f4284a57932b1c000a5",
+    "name": "TrueGBP",
+    "symbol": "TGBP"
+  },
+  "token1": {
+    "id": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "name": "Dai Stablecoin",
+    "symbol": "DAI"
+  },
+  "txCount": "3",
+  "createdAtDatetime": "2021-07-21 04:28:39"
+}, {
+  "createdAtTimestamp": "1626773226",
+  "id": "0x0262ba40d36f70172bdb1506597ea6b84489c8d4",
+  "liquidity": "85378278058561746785",
+  "token0": {
+    "id": "0x6192483a0d98e4607f5147e1d0c082d152030485",
+    "name": "Keter",
+    "symbol": "KTR"
+  },
+  "token1": {
+    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "symbol": "WETH"
+  },
+  "txCount": "8",
+  "createdAtDatetime": "2021-07-20 17:27:06"
+}, {
+  "createdAtTimestamp": "1626744817",
+  "id": "0x067ae1e9f52ff5513d2c8b3b63f11b5755f06608",
+  "liquidity": "504874560843594952",
+  "token0": {
+    "id": "0x34965f73cfa05bf8d8af37cb4af64fa950605ea8",
+    "name": "CoinWind Token",
+    "symbol": "COW"
+  },
+  "token1": {
+    "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "name": "USD Coin",
+    "symbol": "USDC"
+  },
+  "txCount": "48",
+  "createdAtDatetime": "2021-07-20 09:33:37"
+}, {
+  "createdAtTimestamp": "1626634376",
+  "id": "0x06081538d575ef1afcb2ee09e5cf6eaacb7cac84",
+  "liquidity": "0",
+  "token0": {
+    "id": "0x1fd1b2eef54869afa089ba622861b28d5564bfae",
+    "name": "MCOIN Utility Token",
+    "symbol": "MCOIN"
+  },
+  "token1": {
+    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "symbol": "WETH"
+  },
+  "txCount": "7",
+  "createdAtDatetime": "2021-07-19 02:52:56"
+}, {
+  "createdAtTimestamp": "1626494775",
+  "id": "0x0001fcbba8eb491c3ccfeddc5a5caba1a98c4c28",
+  "liquidity": "303015134493562686441",
+  "token0": {
+    "id": "0xbef81556ef066ec840a540595c8d12f516b6378f",
+    "name": "BinanceCZ",
+    "symbol": "BCZ"
+  },
+  "token1": {
+    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "symbol": "WETH"
+  },
+  "txCount": "2",
+  "createdAtDatetime": "2021-07-17 12:06:15"
+}, {
+  "createdAtTimestamp": "1626370546",
+  "id": "0x02976320ef83e1413a9307b34c463a19ab484b5e",
+  "liquidity": "8700778900995278675204",
+  "token0": {
+    "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "name": "Wrapped Ether",
+    "symbol": "WETH"
+  },
+  "token1": {
+    "id": "0xfa14fa6958401314851a17d6c5360ca29f74b57b",
+    "name": "SAITO",
+    "symbol": "SAITO"
+  },
+  "txCount": "141",
+  "createdAtDatetime": "2021-07-16 01:35:46"
+}, {
+  "createdAtTimestamp": "1626280788",
+  "id": "0x02551cab0f196669e1599f2799a6c3d049f3717a",
+  "liquidity": "686407964735",
+  "token0": {
+    "id": "0x99c88211d0b0b17d1d17ed2e6362b028296cef2a",
+    "name": "mooning",
+    "symbol": "MOONING"
+  },
+  "token1": {
+    "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "name": "USD Coin",
+    "symbol": "USDC"
+  },
+  "txCount": "57",
+  "createdAtDatetime": "2021-07-15 00:39:48"
+}]
